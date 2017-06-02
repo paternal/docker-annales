@@ -17,8 +17,3 @@ RUN \
     libssl-dev \
   && apt-get clean
 RUN pip3 install scrapy
-
-## TODO REMOVE
-
-# annales
-RUN git clone https://framagit.org/lpaternault/annales-math /usr/share/annales
